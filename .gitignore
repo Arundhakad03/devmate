@@ -1,0 +1,23 @@
+# --- Secrets ---
+.env
+
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# --- Data (cloned repos, vector store, logs) ---
+data/
+output.txt
+*.log
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
